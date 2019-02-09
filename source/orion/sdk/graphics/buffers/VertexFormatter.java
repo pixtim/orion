@@ -4,14 +4,13 @@ import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.nio.FloatBuffer;
 
-import javax.media.opengl.GL;
-import javax.media.opengl.GLException;
+import com.jogamp.opengl.GL;
+import com.jogamp.opengl.GLException;
 
 import orion.sdk.graphics.shading.glsl.GenericShader;
 import orion.sdk.graphics.util.INamed;
 import orion.sdk.graphics.util.OpenGLContext;
 import orion.sdk.graphics.util.OpenGLManager;
-import orion.sdk.math.FloatMatrix;
 import orion.sdk.math.IFloatMatrix;
 
 public class VertexFormatter implements IVertexFormatter, INamed

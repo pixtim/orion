@@ -1,11 +1,9 @@
 package orion.sdk.graphics.drawables.primitives;
 
-import javax.media.opengl.GL2;
-import javax.media.opengl.GLException;
+import com.jogamp.opengl.GL2;
+import com.jogamp.opengl.GLException;
 
 import orion.sdk.graphics.drawables.IDrawable;
-import orion.sdk.graphics.shading.glsl.AShader;
-import orion.sdk.graphics.shading.glsl.ShaderManager;
 import orion.sdk.graphics.util.OpenGLContext;
 import orion.sdk.graphics.util.OpenGLManager;
 import orion.sdk.math.FloatMatrix;

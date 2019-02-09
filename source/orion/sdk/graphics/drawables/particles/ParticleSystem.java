@@ -5,7 +5,7 @@ import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
 
-import javax.media.opengl.GLException;
+import com.jogamp.opengl.GLException;
 
 import orion.sdk.events.IUpdatable;
 import orion.sdk.graphics.drawables.surfaces.Mesh;

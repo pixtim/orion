@@ -1,6 +1,6 @@
 package orion.sdk.graphics.util;
 
-import javax.media.opengl.GLException;
+import com.jogamp.opengl.GLException;
 
 public interface IAlteration extends INamed
 {

@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.Stack;
 import java.util.TreeMap;
 
-import javax.media.opengl.GLException;
+import com.jogamp.opengl.GLException;
 
 import orion.sdk.graphics.util.IStackable;
 import orion.sdk.graphics.util.IUploadable;

@@ -6,14 +6,14 @@ import java.util.List;
 import java.util.Map;
 import java.util.Random;
 
-import javax.media.opengl.GLException;
+import com.jogamp.opengl.GLException;
 
 import orion.client.graphics.drawables.volumes.MengerSponge;
 import orion.sdk.assets.AssetManager;
 import orion.sdk.assets.AssetRequest;
 import orion.sdk.assets.EAssetType;
 import orion.sdk.assets.IAssetListener;
-import orion.sdk.assets.io.FileSource;
+import orion.sdk.assets.io.ClasspathAssetSource;
 import orion.sdk.assets.io.IAssetSource;
 import orion.sdk.events.IUpdatable;
 import orion.sdk.events.Processor;
@@ -439,7 +439,7 @@ public class Client implements IInputListener, IUnprojectListener
 		protected ContainerNode mainRoot = new ContainerNode("mainRoot");
 		
 		protected ACamera mainSceneCamera = null;
-		protected final String resources = "resources" + File.separator;
+		protected final String resources = "";
 		protected final String testing = resources + "testing" + File.separator;
 		
 		protected final String modelPath = testing + "monkey.obj";
@@ -624,7 +624,7 @@ public class Client implements IInputListener, IUnprojectListener
 			AssetManager.requestAsset(
 					modelPath, 
 					EAssetType.MESH_OBJ, 
-					new FileSource(modelPath), 
+					new ClasspathAssetSource(modelPath), 
 					this);			
 		}
 		

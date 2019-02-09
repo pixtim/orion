@@ -1,10 +1,7 @@
 package orion.sdk.graphics.util;
 
-import javax.media.opengl.GL2;
-import javax.media.opengl.GLPipelineFactory;
-import javax.media.opengl.glu.gl2.GLUgl2;
-
-import orion.sdk.graphics.viewing.cameras.ACamera;
+import com.jogamp.opengl.GL2;
+import com.jogamp.opengl.glu.gl2.GLUgl2;
 
 public class OpenGLContext
 {

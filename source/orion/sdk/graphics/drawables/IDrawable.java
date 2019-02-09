@@ -1,10 +1,10 @@
 package orion.sdk.graphics.drawables;
 
-import javax.media.opengl.GLException;
+import com.jogamp.opengl.GLException;
 
+import orion.sdk.graphics.util.IUploadable;
 import orion.sdk.graphics.util.OpenGLContext;
 import orion.sdk.math.geometry.Box;
-import orion.sdk.graphics.util.IUploadable;
 
 public interface IDrawable extends IUploadable
 {

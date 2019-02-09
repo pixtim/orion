@@ -1,6 +1,6 @@
 package orion.client.graphics.drawables.volumes;
 
-import javax.media.opengl.GLException;
+import com.jogamp.opengl.GLException;
 
 import orion.sdk.data.cubes.BooleanCube;
 import orion.sdk.data.cubes.FloatCube;

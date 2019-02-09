@@ -4,7 +4,7 @@ import java.awt.image.BufferedImage;
 import java.util.LinkedList;
 import java.util.List;
 
-import javax.media.opengl.GLException;
+import com.jogamp.opengl.GLException;
 
 import orion.sdk.graphics.buffers.FrameBuffer;
 import orion.sdk.graphics.drawables.IDrawable;

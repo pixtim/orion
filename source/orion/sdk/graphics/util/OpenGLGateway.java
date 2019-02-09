@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
-import javax.media.opengl.GLException;
+import com.jogamp.opengl.GLException;
 
 /**
  * Untested thread gateway utility class.

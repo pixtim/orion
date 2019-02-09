@@ -3,7 +3,7 @@ package orion.sdk.graphics.scenes;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.media.opengl.GLException;
+import com.jogamp.opengl.GLException;
 
 import orion.sdk.events.IUpdatable;
 import orion.sdk.graphics.drawables.IDrawable;

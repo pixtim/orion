@@ -1,7 +1,6 @@
 package orion.sdk.graphics.viewing.cameras;
 
-import javax.media.opengl.GL2;
-import javax.media.opengl.glu.gl2.GLUgl2;
+import com.jogamp.opengl.GL2;
 
 import orion.sdk.graphics.util.OpenGLContext;
 

@@ -6,18 +6,16 @@ import java.util.Map;
 import java.util.Stack;
 import java.util.TreeMap;
 
-import javax.media.opengl.GL2;
-import javax.media.opengl.GLException;
+import com.jogamp.opengl.GL2;
+import com.jogamp.opengl.GLException;
 
 import orion.sdk.graphics.util.IStackable;
 import orion.sdk.graphics.util.IUploadable;
 import orion.sdk.graphics.util.OpenGLContext;
 import orion.sdk.graphics.util.OpenGLManager;
 import orion.sdk.graphics.util.OpenGLStack;
-import orion.sdk.math.FloatMatrix;
 import orion.sdk.math.IFloatMatrix;
 import orion.sdk.monitoring.incidents.Incident;
-import orion.sdk.monitoring.incidents.IncidentManager;
 import orion.sdk.util.Parameter;
 import orion.sdk.util.Transform;
 

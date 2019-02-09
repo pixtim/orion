@@ -6,10 +6,9 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
-import javax.media.opengl.GLException;
+import com.jogamp.opengl.GLException;
 
 import orion.sdk.graphics.drawables.IDrawable;
-import orion.sdk.graphics.shading.lighting.Light;
 import orion.sdk.graphics.util.OpenGLContext;
 import orion.sdk.graphics.util.OpenGLManager;
 import orion.sdk.math.geometry.Box;

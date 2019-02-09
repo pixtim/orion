@@ -15,10 +15,10 @@ import java.util.Map;
 import java.util.Queue;
 import java.util.concurrent.LinkedBlockingQueue;
 
-import javax.media.opengl.GL;
-import javax.media.opengl.GL2;
-import javax.media.opengl.GLException;
-import javax.media.opengl.GLPipelineFactory;
+import com.jogamp.opengl.GL;
+import com.jogamp.opengl.GL2;
+import com.jogamp.opengl.GLException;
+import com.jogamp.opengl.GLPipelineFactory;
 
 import orion.sdk.graphics.drawables.IDrawable;
 import orion.sdk.graphics.drawables.primitives.WireBox;

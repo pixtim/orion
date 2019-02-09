@@ -4,7 +4,6 @@ import java.util.List;
 
 import orion.sdk.math.FloatMatrix;
 import orion.sdk.math.IFloatMatrix;
-import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 public class GenericFloatMatrixAdapter implements IFloatMatrix
 {
@@ -91,7 +90,7 @@ public class GenericFloatMatrixAdapter implements IFloatMatrix
 		/*
 		 * Not supported.
 		 */
-		throw new NotImplementedException();
+		throw new Exception("Not implemented");
 	}
 
 	@Override
@@ -178,7 +177,7 @@ public class GenericFloatMatrixAdapter implements IFloatMatrix
 	@Override
 	public String toString(boolean multiline, int digits)
 	{
-		throw new NotImplementedException();
+		throw new RuntimeException("Not implemented");
 	}
 	
 	@Override

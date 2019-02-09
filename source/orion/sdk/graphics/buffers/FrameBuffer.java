@@ -2,15 +2,15 @@ package orion.sdk.graphics.buffers;
 
 import java.util.Stack;
 
-import javax.media.opengl.GL2;
-import javax.media.opengl.GLException;
+import com.jogamp.opengl.GL2;
+import com.jogamp.opengl.GLException;
 
 import orion.sdk.graphics.shading.texturing.Texture;
-import orion.sdk.graphics.util.OpenGLManager;
-import orion.sdk.graphics.util.OpenGLStack;
 import orion.sdk.graphics.util.IStackable;
 import orion.sdk.graphics.util.IUploadable;
 import orion.sdk.graphics.util.OpenGLContext;
+import orion.sdk.graphics.util.OpenGLManager;
+import orion.sdk.graphics.util.OpenGLStack;
 
 public class FrameBuffer implements IUploadable, IStackable
 {

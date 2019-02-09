@@ -1,7 +1,7 @@
 package orion.sdk.node.drawables;
 
-import javax.media.opengl.GL2;
-import javax.media.opengl.GLException;
+import com.jogamp.opengl.GL2;
+import com.jogamp.opengl.GLException;
 
 import orion.sdk.events.IUpdatable;
 import orion.sdk.graphics.drawables.IDrawable;
@@ -10,7 +10,6 @@ import orion.sdk.graphics.util.OpenGLManager;
 import orion.sdk.graphics.util.OpenGLStack;
 import orion.sdk.graphics.viewing.ClippingPane;
 import orion.sdk.math.FloatMatrix;
-import orion.sdk.math.FloatTransformation;
 import orion.sdk.math.geometry.Box;
 import orion.sdk.monitoring.performance.CallStack;
 import orion.sdk.monitoring.performance.StackMonitor;

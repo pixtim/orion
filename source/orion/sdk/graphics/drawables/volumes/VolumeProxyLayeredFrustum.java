@@ -1,6 +1,6 @@
 package orion.sdk.graphics.drawables.volumes;
 
-import javax.media.opengl.GLException;
+import com.jogamp.opengl.GLException;
 
 import orion.sdk.graphics.drawables.surfaces.Mesh;
 import orion.sdk.graphics.shading.glsl.GenericShader;

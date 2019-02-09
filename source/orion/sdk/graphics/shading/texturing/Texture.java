@@ -5,21 +5,20 @@ import java.awt.image.BufferedImage;
 import java.io.IOException;
 import java.io.InputStream;
 import java.nio.Buffer;
-import java.util.Stack;
 
 import javax.imageio.ImageIO;
-import javax.media.opengl.GL2;
-import javax.media.opengl.GLException;
+
+import com.jogamp.opengl.GL2;
+import com.jogamp.opengl.GLException;
 
 import orion.sdk.data.cubes.ADataCube;
 import orion.sdk.data.cubes.ByteCube;
 import orion.sdk.data.cubes.FloatCube;
 import orion.sdk.data.cubes.ObjectCube;
-import orion.sdk.graphics.shading.lighting.Material;
-import orion.sdk.graphics.util.OpenGLManager;
 import orion.sdk.graphics.util.IStackable;
 import orion.sdk.graphics.util.IUploadable;
 import orion.sdk.graphics.util.OpenGLContext;
+import orion.sdk.graphics.util.OpenGLManager;
 import orion.sdk.graphics.util.OpenGLStack;
 import orion.sdk.util.Transform;
 

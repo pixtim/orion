@@ -1,6 +1,6 @@
 package orion.sdk.assets.loaders;
 
-import orion.sdk.assets.io.FileSource;
+import orion.sdk.assets.io.FileAssetSource;
 import orion.sdk.assets.io.IAssetSource;
 import orion.sdk.graphics.shading.texturing.Texture;
 
@@ -9,9 +9,9 @@ public class TextureLoader extends AAssetLoader
 	@Override
 	public Object load(IAssetSource source, String assetPath) throws Exception
 	{
-		if (source instanceof FileSource)
+		if (source instanceof FileAssetSource)
 		{
-			FileSource fileSource = (FileSource) source;
+			FileAssetSource fileSource = (FileAssetSource) source;
 			try
 			{
 				fileSource.open();

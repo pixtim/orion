@@ -1,10 +1,10 @@
 package orion.sdk.graphics.drawables.surfaces;
 
-import javax.media.opengl.GL2;
-import javax.media.opengl.GLException;
+import com.jogamp.opengl.GL2;
+import com.jogamp.opengl.GLException;
 
-import orion.sdk.graphics.buffers.VertexFormatter;
 import orion.sdk.graphics.buffers.VertexBuffer;
+import orion.sdk.graphics.buffers.VertexFormatter;
 import orion.sdk.graphics.drawables.IDrawable;
 import orion.sdk.graphics.shading.glsl.AShader;
 import orion.sdk.graphics.shading.glsl.ShaderManager;
@@ -13,7 +13,6 @@ import orion.sdk.graphics.util.OpenGLManager;
 import orion.sdk.math.FloatMatrix;
 import orion.sdk.math.IFloatMatrix;
 import orion.sdk.math.geometry.Box;
-import orion.sdk.monitoring.incidents.IncidentManager;
 
 /**
  * Represents a mesh of triangles with {@code 4f} postitions, {@code 4f} colors and {@code 3f}

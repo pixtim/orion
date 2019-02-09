@@ -1,6 +1,6 @@
 package orion.sdk.graphics.shading.glsl;
 
-import javax.media.opengl.GLException;
+import com.jogamp.opengl.GLException;
 
 import orion.sdk.graphics.util.OpenGLStack;
 

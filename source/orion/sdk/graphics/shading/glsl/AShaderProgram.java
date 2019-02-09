@@ -1,17 +1,12 @@
 package orion.sdk.graphics.shading.glsl;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import javax.media.opengl.GL2;
-import javax.media.opengl.GL2ES2;
-import javax.media.opengl.GLException;
-import javax.media.opengl.glu.gl2.GLUgl2;
+import com.jogamp.opengl.GL2;
+import com.jogamp.opengl.GL2ES2;
+import com.jogamp.opengl.GLException;
 
 import orion.sdk.graphics.util.IUploadable;
 import orion.sdk.graphics.util.OpenGLContext;
 import orion.sdk.graphics.util.OpenGLManager;
-import orion.sdk.util.Transform;
 
 public abstract class AShaderProgram extends ProgramBuilder implements IUploadable
 {

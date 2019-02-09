@@ -6,7 +6,7 @@ public class FileAssetSourceFactory extends AAssetSourceFactory
 	@Override
 	public IAssetSource create(String path)
 	{
-		return new FileSource(path);
+		return new FileAssetSource(path);
 	}
 
 }

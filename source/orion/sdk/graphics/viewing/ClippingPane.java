@@ -1,7 +1,7 @@
 package orion.sdk.graphics.viewing;
 
-import javax.media.opengl.GL2;
-import javax.media.opengl.GLException;
+import com.jogamp.opengl.GL2;
+import com.jogamp.opengl.GLException;
 
 import orion.sdk.graphics.util.IStackable;
 import orion.sdk.graphics.util.OpenGLContext;

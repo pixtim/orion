@@ -2,12 +2,11 @@ package orion.sdk.graphics.shading.glsl;
 
 import java.util.List;
 
-import javax.media.opengl.GLException;
+import com.jogamp.opengl.GLException;
 
 import orion.sdk.graphics.drawables.volumes.VolumeChunk;
 import orion.sdk.graphics.shading.lighting.Light;
 import orion.sdk.graphics.shading.lighting.Material;
-import orion.sdk.graphics.shading.texturing.Texture;
 import orion.sdk.graphics.shading.texturing.Texture.ETextureType;
 import orion.sdk.graphics.util.OpenGLContext;
 import orion.sdk.graphics.util.OpenGLManager;

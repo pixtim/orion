@@ -2,14 +2,13 @@ package orion.sdk.graphics.buffers;
 
 import java.nio.ByteBuffer;
 
-import javax.media.opengl.GL;
-import javax.media.opengl.GL2;
-import javax.media.opengl.GLException;
-import javax.media.opengl.glu.gl2.GLUgl2;
+import com.jogamp.opengl.GL;
+import com.jogamp.opengl.GL2;
+import com.jogamp.opengl.GLException;
 
-import orion.sdk.graphics.util.OpenGLManager;
 import orion.sdk.graphics.util.IUploadable;
 import orion.sdk.graphics.util.OpenGLContext;
+import orion.sdk.graphics.util.OpenGLManager;
 
 public class VertexBuffer implements IUploadable
 {

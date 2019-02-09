@@ -5,10 +5,9 @@ import java.util.Set;
 import java.util.Stack;
 import java.util.TreeMap;
 
-import javax.media.opengl.GLException;
+import com.jogamp.opengl.GLException;
 
 import orion.sdk.monitoring.incidents.Incident;
-import orion.sdk.monitoring.incidents.IncidentManager;
 
 public class OpenGLStack
 {

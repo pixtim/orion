@@ -1,7 +1,7 @@
 package orion.sdk.graphics.panels;
 
-import javax.media.opengl.GL2;
-import javax.media.opengl.GLException;
+import com.jogamp.opengl.GL2;
+import com.jogamp.opengl.GLException;
 
 import orion.sdk.graphics.util.OpenGLContext;
 import orion.sdk.graphics.util.OpenGLManager;
@@ -11,7 +11,6 @@ import orion.sdk.graphics.viewing.cameras.OrthographicCamera;
 import orion.sdk.math.FloatMatrix;
 import orion.sdk.math.geometry.Box;
 import orion.sdk.math.geometry.Vertex;
-import orion.sdk.monitoring.incidents.IncidentManager;
 
 public class OrthoPanel extends APanel
 {

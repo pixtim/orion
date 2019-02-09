@@ -2,8 +2,6 @@ package orion.sdk.math.generic;
 
 import java.math.BigDecimal;
 
-import sun.reflect.generics.reflectiveObjects.NotImplementedException;
-
 public class GenericBigDecimal implements IGenericPrimitive
 {
 	private BigDecimal value = new BigDecimal(0);

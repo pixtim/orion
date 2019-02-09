@@ -1,8 +1,6 @@
 package orion.sdk.graphics.drawables.voxels;
 
-import javax.media.opengl.GL2;
-import javax.media.opengl.GLException;
-import javax.media.opengl.glu.gl2.GLUgl2;
+import com.jogamp.opengl.GLException;
 
 import orion.sdk.data.cubes.ObjectCube;
 import orion.sdk.graphics.drawables.IDrawable;

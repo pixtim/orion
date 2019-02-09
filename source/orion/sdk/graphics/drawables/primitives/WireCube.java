@@ -1,7 +1,6 @@
 package orion.sdk.graphics.drawables.primitives;
 
 import orion.sdk.graphics.drawables.surfaces.Mesh;
-import orion.sdk.graphics.drawables.surfaces.Mesh.FaceType;
 import orion.sdk.math.FloatMatrix;
 import orion.sdk.math.geometry.Box;
 

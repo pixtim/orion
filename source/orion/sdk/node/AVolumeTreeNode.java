@@ -1,6 +1,6 @@
 package orion.sdk.node;
 
-import javax.media.opengl.GLException;
+import com.jogamp.opengl.GLException;
 
 import orion.sdk.data.cubes.FloatCube;
 import orion.sdk.data.cubes.ObjectCube;

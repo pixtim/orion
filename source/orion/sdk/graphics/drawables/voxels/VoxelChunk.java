@@ -1,10 +1,9 @@
 package orion.sdk.graphics.drawables.voxels;
 
-import javax.media.opengl.GLException;
+import com.jogamp.opengl.GLException;
 
 import orion.sdk.data.cubes.ObjectCube;
 import orion.sdk.graphics.drawables.surfaces.Mesh;
-import orion.sdk.graphics.drawables.surfaces.Mesh.FaceType;
 import orion.sdk.graphics.shading.texturing.Sprite;
 import orion.sdk.math.FloatMatrix;
 import orion.sdk.math.geometry.Box;

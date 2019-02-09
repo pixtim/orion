@@ -1,9 +1,7 @@
 package orion.sdk.graphics.shading.glsl;
 
-import javax.media.opengl.GL2;
-import javax.media.opengl.GL2ES2;
-import javax.media.opengl.GLException;
-import javax.media.opengl.glu.gl2.GLUgl2;
+import com.jogamp.opengl.GL2ES2;
+import com.jogamp.opengl.GLException;
 
 import orion.sdk.graphics.util.OpenGLContext;
 
