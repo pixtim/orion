@@ -2,8 +2,5 @@
 /.git/
 /.gradle/
 /build/
-
-
-bin/
-
-trace/
+/bin/
+/trace/
