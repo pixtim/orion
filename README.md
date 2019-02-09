@@ -22,5 +22,5 @@ Orion is built with [Gradle](https://gradle.org/):
 ## Developer Environment
 
 - We recommend working in the [Eclipse IDE](https://www.eclipse.org/) with Gradle integration.
-- We recommend [GitKraken](https://www.gitkraken.com/) for as a visual Git tool.
+- We recommend [GitKraken](https://www.gitkraken.com/) as a visual Git tool.
  
