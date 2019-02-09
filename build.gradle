@@ -15,8 +15,6 @@ dependencies {
 
 sourceSets {
 	main {
-		output.resourcesDir = file('out/resources')
-		
 		java {
 			srcDir 'source'
 		}
@@ -24,9 +22,4 @@ sourceSets {
 			srcDir 'resources'
 		}
 	}
-}
-
-
-run {
-    jvmArgs '-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005'
 }

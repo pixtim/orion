@@ -1,3 +1,9 @@
 /.settings/
 /.git/
 /.gradle/
+/build/
+
+
+bin/
+
+trace/
